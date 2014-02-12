@@ -1,0 +1,151 @@
+<head>
+	<title>Light: Illuminating your learning.</title>
+	<meta name="description" content="A search engine that categorizes learning resources by their popularity, difficulty level, and type of learning epitomized.">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Roger Huang">
+	<meta charset="UTF-8">
+	<LINK href="bootstrap.css" rel="stylesheet" type="text/css">
+	<LINK href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<!--Custom styles!-->
+<style type="text/css">
+	#submitbutton{
+			-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#a9bd0d;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Lato;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:27px;
+	line-height:27px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #689324;
+	vertical-align:middle;
+	margin-top:-2px;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+}
+	}
+
+	/* This button was generated using CSSButtonGenerator.com */
+
+	h2 span { 
+   color: black; 
+   font: bold 24px/45px Lato, Sans-Serif; 
+   letter-spacing: -1px;  
+	}
+
+	h3 span { 
+   color: black; 
+   font: bold 20px/36px Lato, Sans-Serif; 
+   letter-spacing: -1px;  
+	}
+
+	/*The 3D effect was generated using http://www.3dcsstext.com/*/
+
+#light{
+font-family: Garamond, serif;
+line-height: 1em;
+color: #a9bd0d;
+font-weight:bold;
+font-size: 111px;
+text-shadow:0px 0px 0 rgb(104,124,-52),-1px 1px 0 rgb(83,103,-73),-2px 2px 0 rgb(61,81,-95),-3px 3px 0 rgb(39,59,-117), -4px 4px 0 rgb(17,37,-139),-5px 5px 4px rgba(0,0,0,0.35),-5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+text-align: center;}
+
+#footer{
+	text-align: center;
+	font: italic 11px Lato, Sans-Serif;
+}
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Light</a>
+    </div>
+	<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="../getting-started">About</a>
+        </li>
+        <li>
+          <a href="../css">CSS</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://expo.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Expo']);">Expo</a></li>
+        <li><a href="http://blog.getbootstrap.com" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Blog']);">Blog</a></li>
+      </ul>
+    </nav>
+</nav>
+
+<br/>
+<br/>
+
+		<div id="light">Light</div>
+<br/>
+	<h2><span>We illuminate your learning.</span></h2>
+	 
+	<br/>
+
+	<h3><span>I want to learn:</span></h3>
+	<center><form action="">
+	<input type="text" name="search"><button type="submit" id="submitbutton">Learn</button>
+	</form></center>
+
+	<br/>
+
+	<h3><span>Light: Open-source search engine that curates great educational resources by learning difficulty and type.</span></h3> 
+
+
+	<!--Scripts at the bottom make web devs happy-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!--Custom scripts!-->
+	<script src="jquery.typer.js"></script>
+	  <script>
+    $(function () {
+      $('[data-typer-targets]').typer();
+    });
+  	 </script>
+  	 <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+	 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-525cd888409f466a"></script>
+</body>
